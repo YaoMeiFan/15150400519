@@ -1,13 +1,30 @@
 a{
 	display: inline-block;
 	text-decoration: none;
-	color: #cacaca;
+	color: #c1c1c1;
     font-size: 18px;
 }
-a:visited {color: #cacaca;
+a:visited {color: #c1c1c1;
 text-decoration: none;
 }
 a:hover {
 	text-decoration: none;
-	color: 	white !important} 
+	color: 	white;} 
 a:focus{text-decoration: none}
+
+.right{
+    position: absolute;
+	right: 9rem;
+	top: 157px;
+	float: none;
+	line-height: 1.2rem;
+    color: #c1c1c1;
+}
+.ri{
+    position: absolute;
+	right: 4rem;
+	top: 157px;
+	float: none;
+	line-height: 1.2rem;
+    color: #c1c1c1;
+}

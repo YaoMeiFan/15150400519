@@ -1,0 +1,13 @@
+a{
+	display: inline-block;
+	text-decoration: none;
+	color: #cacaca;
+    font-size: 18px;
+}
+a:visited {color: #cacaca;
+text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: 	white !important} 
+a:focus{text-decoration: none}

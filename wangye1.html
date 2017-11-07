@@ -9,12 +9,15 @@
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="css/cssm.css">
       <link rel="stylesheet" href="clock.css">
+      <link rel="stylesheet" type="text/css" href="css/component.css">
+      <link rel="stylesheet" type="text/css" href="css/default.css">
     </head>
     <style>
          .navbar{background-color: #33332c;
              height: 180px;}
         .div2{font-size: 20px;
-              color: black;}
+              color: black;
+              margin-top: -340px;}
          .span2{ display: none;}
             .div2:hover .span1{
                 display: none;
@@ -74,6 +77,20 @@
 			 		<a href="#">加入</a>
 			 	</div>
 			 </div>
+         <div class="main clearfix">
+				<div class="column">
+					<div id="sb-search" class="sb-search">
+						<form>
+							<input class="sb-search-input"  type="text" value="" name="search" id="search" placeholder="请输入要查询的内容">
+							<input class="sb-search-submit" type="submit" value="">
+							<span class="sb-icon-search"></span>
+						</form>
+					</div>
+				</div>
+			</div>
+        
+        
+        
         <div class="right"><a href="wangye4.html"><font size=4px>登录</font></a></div>
         <div class="ri"><a href="wangye3.html"><font size=4px>注册</font></a></div><br>
         <div class="div2"><a href="wangye2.html" style="text-decoration:none">
@@ -132,6 +149,12 @@
      <script src="js/jquery-1.11.3.min.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="clock.js"></script>
+        <script src="js/modernizr.custom.js"></script>
+        <script src="js/classie.js"></script>
+		<script src="js/uisearch.js"></script>
+		<script>
+			new UISearch( document.getElementById( 'sb-search' ) );
+		</script>
     </body>
 
 </html>

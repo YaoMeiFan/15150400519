@@ -1,0 +1,51 @@
+.left{
+	position: absolute;
+	left: 0.3rem;
+	top: 80px;
+	float: none;
+	font-size: 2rem;
+	line-height: 1.2rem;
+    color: #33332c;
+}
+
+
+
+main .whatwedo:before { content: ''; display: table; }
+.sectionHeader { text-transform: uppercase; text-align: center; font-size: 28px; font-size: 2.9rem; margin: 2rem auto; line-height: 7rem; font-weight: bold; transition: 0.5s; }
+.whatwedo-item { min-height: 200px; padding: 80px 0; }
+.whatwedo-item:nth-child(2n) { background: #33332c; }
+.whatwedo-item .layout { max-width: 784px; position: relative; box-sizing: border-box; text-align: center; }
+.whatwedo-item .layout i.icon { width: 181px; height: 200px; display: inline-block; background: url("../img/qiyetu1.png"); }
+.whatwedo-item .layout h3 { font-size: 22px; font-size: 2.2rem; }
+.whatwedo-item .layout p { font-size: 14px; font-size: 1.4rem; line-height: 2.2rem; letter-spacing: 1px; }
+.back-end .layout i.icon { width: 200px; background: url("../img/qiyetu2.png"); }
+.mobileApp .layout i.icon { width: 181px; background: url("../img/qiyetu1.png"); }
+
+
+@media only screen and (min-width: 650px) {
+.whatwedo-item .layout { text-align: left; padding-left: 270px; }
+.whatwedo-item i.icon { position: absolute; top: 0; right: 50%; margin-right: 158px; }
+.logo3, .middle-icon, .link { display: inline-block; vertical-align: middle; width: 32%; text-align: left; }
+.logo3 strong { margin: 0 0 10px; }
+}
+
+@media only screen and (min-width: 1120px) {
+.simple-item div.anim a img.img11 { left: 0%; top: 50%; transform: scale(0.4); opacity: 0; transition: 0.5s; }
+.simple-item div.anim a img.img12 { left: 40%; bottom: 50%; transform: scale(0.4); opacity: 0; transition: 0.5s; }
+.simple-item div.anim a img.img13 { right: 40%; bottom: 50%; transform: scale(0.4); opacity: 0; transition: 0.5s; }
+.simple-item div.anim a img.img21 { left: 0px; top: 50%; transform: scale(0.2) rotate(-90deg); opacity: 0; transition: 0.5s; }
+.simple-item div.anim a img.img22 { left: 0px; bottom: 50%; transform: scale(0.2) rotate(90deg); opacity: 0; transition: 0.5s; }
+.simple-item div.anim a img.img31 { left: 20%; bottom: 30%; transform: scale(0.2) rotate(-70deg); opacity: 0; transition: 0.5s; }
+.simple-item div.anim a img.img32 { left: 0; bottom: 40%; transform: scale(0.2); opacity: 0; transition: 0.5s; }
+.simple-item div.anim a img.img33 { left: 20%; bottom: 30%; transform: scale(0.2) rotate(70deg); opacity: 0; transition: 0.5s; }
+.simple-item:hover div.anim a img.img11 { left: 0px; top: 0px; transform: scale(1); opacity: 1; }
+.simple-item:hover div.anim a img.img12 { left: 0px; bottom: 0px; transform: scale(1); opacity: 1; }
+.simple-item:hover div.anim a img.img13 { right: 0px; bottom: 0px; transform: scale(1); opacity: 1; }
+.simple-item:hover div.anim a img.img21 { left: 0px; top: 0px; transform: scale(1) rotate(0deg); opacity: 1; }
+.simple-item:hover div.anim a img.img22 { left: 0px; bottom: 0px; transform: scale(1) rotate(0deg); opacity: 1; }
+.simple-item:hover div.anim a img.img31 { left: 0px; bottom: 0px; transform: scale(1) rotate(0deg); opacity: 1; }
+.simple-item:hover div.anim a img.img32 { left: 0px; bottom: 0px; transform: scale(1) rotate(0deg); opacity: 1; }
+.simple-item:hover div.anim a img.img33 { left: 0px; bottom: 0px; transform: scale(1) rotate(0deg); opacity: 1; }
+.whatwedo-item .layout { padding-left: 400px; max-width: 960px; }
+.logo3 span, .logo3 strong { display: inline-block; vertical-align: bottom; margin: 0 20px 0 0; }
+}

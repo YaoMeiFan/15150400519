@@ -1,0 +1,53 @@
+.left{
+	position: absolute;
+	left: 3.2rem;
+	top: 15px;
+	float: none;
+	font-size: 1.8rem;
+	line-height: 1.2rem;
+    color: #33332c;
+}
+
+
+.selectImgDiv .item{
+    width: 300px;
+    height: 300px;
+    border: solid thin #33332c;
+    float: left;
+    margin: 40px;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.selectImgDiv .item:hover{
+    border: solid thin #33332c;
+}
+.selectImgDiv .item .img_show{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.selectImgDiv .item .img_show img{
+    width: 100%;
+    height: 100%;
+}
+.selectImgDiv .item:hover .img_show img{
+    transform: scale(1.3);
+    transition: all 1s ease 0s;
+    -webkit-transform: scale(1.3);
+    -webkit-transform: all 1s ease 0s;
+}
+.selectImgDiv .item .img_title{
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: rgba(102,102,102,0.6);
+    position: relative;
+    color: #ffffff;
+    font-weight: 700px;
+}
+.selectImgDiv .item:hover .img_title{
+    top:-30px;
+}
+

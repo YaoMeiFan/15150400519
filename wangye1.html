@@ -4,13 +4,15 @@
     <meta charset="utf-8">
     <meta  http-equiv="X-UA_Compatible" content="IE=edga" http-equiv="content-type">
      <meta name="viewport" content="width=device-width , user-scalable=no,initual-scale=1.0,maximum-scale=1.0,minimun-scale=1.0">
- <title>大作业之主界面</title>
+ <title>大作业之主界面（内包含查询）</title>
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="css/cssm.css">
       <link rel="stylesheet" href="clock.css">
       <link rel="stylesheet" type="text/css" href="css/component.css">
       <link rel="stylesheet" type="text/css" href="css/default.css">
+      <link rel="stylesheet" type="text/css" href="css/style2.css" >
+      <link rel="stylesheet" href="css/bootstrap.min1.css">
     </head>
     <style>
          .navbar{background-color: #33332c;
@@ -67,14 +69,14 @@
 			 	<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2">
 			 		<a href="wangye7.html">服务</a>
 			 	</div>
-			 	<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2">
+			 	<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2" data-toggle="modal" data-target="#myModal">
 			 		<a href="#">查询</a>
 			 	</div>
                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2">
-			 		<a href="#">推广</a>
+			 		<a href="wangye8.html">推广</a>
 			 	</div>
                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2">
-			 		<a href="#">加入</a>
+			 		<a href="wangye9.html">加入</a>
 			 	</div>
 			 </div>
          <div class="main clearfix">
@@ -145,6 +147,187 @@
 			    <span class="sr-only">Next</span>
 			  </a>
 			</div>
+        
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+             <div class="modal-header clearfix mid">
+                <button type="button" class="close mid" data-dismiss="modal" aria-hidden="true">关闭</button>
+                </div>
+                <div class="modal-body shortcut-add-box">
+                    <div class="shortcut-add-box-left">
+                        <ul>
+                            <li class="active" id="li1">
+                                <i class="fa fa-bars"></i>
+                                <span>衣服</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-car"></i>
+                                <span>鞋靴</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-users"></i>
+                                <span>家电</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-briefcase"></i>
+                                <span>数码</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-user-plus"></i>
+                                <span>珠宝</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-file-text"></i>
+                                <span>动漫</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-wrench"></i>
+                                <span>美食</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-pencil-square"></i>
+                                <span>手表</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-building"></i>
+                                <span>家具</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-bar-chart"></i>
+                                <span>户外</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-cog"></i>
+                                <span>双十一</span>
+                            </li>
+                            <div class="lanPos"></div>
+                        </ul>
+                    </div>
+                    
+                    <div class="shortcut-add-box-right">
+                        <div class="car-info-shortcut shortcut-element-list">
+                            <h5><span>衣服</span></h5>
+                            <ul class="shortcut-element-box clearfix">
+                                <li>
+                                    <i class="fa fa-car"></i>
+                                    <span>女装</span>
+                                </li>
+                            </ul>
+                            <ul class="shortcut-element-box clearfix">
+                                <li>
+                                    <i class="fa fa-car"></i>
+                                    <span>男装</span>
+                                </li>
+                            </ul>
+                            <ul class="shortcut-element-box clearfix">
+                                <li>
+                                    <i class="fa fa-car"></i>
+                                    <span>内衣</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="person-shortcut shortcut-element-list">
+                            <h5><span>鞋靴</span></h5>
+                            <ul class="shortcut-element-box clearfix">
+                                <li>
+                                    <i class="fa fa-user-times"></i>
+                                    <span>女士</span>
+                                </li>
+                            </ul>
+                            <ul class="shortcut-element-box clearfix">
+                                <li>
+                                    <i class="fa fa-user-times"></i>
+                                    <span>男士</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="enterprise-info-shortcut shortcut-element-list">
+                            <h5><span>家电</span></h5>
+                            <ul class="shortcut-element-box clearfix">
+                                <li>
+                                    <i class="fa fa-male"></i>
+                                    <span>家居</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-hand-pointer-o"></i>
+                                    <span>办公</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="enterprise-server-shortcut shortcut-element-list">
+                            <h5><span>数码</span></h5>
+                            <ul class="shortcut-element-box clearfix">
+                                <li>
+                                    <i class="fa fa-user-plus"></i>
+                                    <span>数码优品</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="enterprise-server-shortcut shortcut-element-list">
+                            <h5><span>珠宝</span></h5>
+                            <ul class="shortcut-element-box clearfix">
+                                <li>
+                                    <i class="fa fa-male"></i>
+                                    <span>抢购双十一</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="repair-info-shortcut shortcut-element-list">
+                            <h5><span>动漫</span></h5>
+                            <ul class="shortcut-element-box clearfix">
+                                <li>
+                                    <i class="fa fa-taxi"></i>
+                                    <span>周边</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="examine-shortcut shortcut-element-list">
+                            <h5><span>美食</span></h5>
+                            <ul class="shortcut-element-box clearfix">
+                                <li>
+                                    <i class="fa fa-check-square-o"></i>
+                                    <span>国内</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-list-alt"></i>
+                                    <span>国际</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="examine-shortcut shortcut-element-list">
+                            <h5><span>手表</span></h5>
+                            <ul class="shortcut-element-box clearfix">
+                                <li>
+                                    <i class="fa fa-building"></i>
+                                    <span>品牌</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="examine-shortcut shortcut-element-list">
+                            <h5><span>家具</span></h5>
+                            <ul class="shortcut-element-box clearfix">
+                                <li>
+                                    <i class="fa fa-bar-chart"></i>
+                                    <span>温馨</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="examine-shortcut shortcut-element-list">
+                            <h5><span>户外</span></h5>
+                            <ul class="shortcut-element-box clearfix">
+                                <li>
+                                    <i class="fa fa-cog"></i>
+                                    <span>登山</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
     
      <script src="js/jquery-1.11.3.min.js"></script>
         <script src="js/bootstrap.js"></script>

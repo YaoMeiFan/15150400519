@@ -1,0 +1,27 @@
+ul li{list-style: none;}
+/*模态框*/
+.modal{overflow: hidden;}
+.modal .modal-dialog{position: fixed; top: 46%; left: 50%; -webkit-transform: translateX(-50%) translateY(-50%);  -moz-transform: translateX(-50%) translateY(-50%);  -ms-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%) !important; max-width: 800px; width: 800px;}
+.modal .modal-dialog .modal-body{width: 797px; max-height: 400px; min-height: 400px; overflow-x: hidden; overflow-y: auto; padding: 0 20px;}
+.modal .modal-small{max-width: 800px; width: 600px;}
+.new-manger .show-box{border: 1px solid #33332c; height: 150px;}
+.new-manger .show-box{border: 1px solid #33332c;height: 150px;width: 200px;}
+.pageWrap .model-page{margin-top: 0;}
+
+/*快捷方式弹窗*/
+.modal .shortcut-add-box{padding: 10px 20px !important;}
+
+/*快捷方式弹窗主体*/
+.modal .modal-body .shortcut-add-box-left{width: 120px; height: 100%; position: fixed; z-index: 3000;}
+.modal .modal-body .shortcut-add-box-left ul{margin: 0; padding: 0; position: relative; top: 0; left: 0;}
+.modal .modal-body .shortcut-add-box-left ul li{width: 100%; list-style: none; height: 34px; padding-left: 20px; line-height: 34px; border: none; cursor:pointer;}
+.modal .modal-body .shortcut-add-box-left ul li.active,.modal .modal-body 
+.modal .modal-body .shortcut-add-box-left ul li>i{margin-right: 6px;}
+.lanPos{width: 100%; height: 34px; line-height: 34px; background: #F8F8F8; border-left: 3px solid #1AB394; position: absolute;  left: 0; top: 0; z-index: -1; transition: top .2s;}
+.modal .modal-body .shortcut-add-box-right{position: inherit; padding: 10px 15px; margin: 0 0 0 120px;}
+.modal .modal-body .shortcut-add-box-right h5{border-bottom: 1px solid #e7eaec;}
+.modal .modal-body .shortcut-add-box-right h5>span{display: inline-block; font-size: 15px; border-bottom: 2px solid #1AB394; padding-bottom: 10px;}
+.modal .modal-body .shortcut-add-box-right ul{padding: 0; margin: 0; }
+.modal .modal-body .shortcut-add-box-right ul li{list-style: none; float: left; padding: 10px 15px; border: 1px solid #ddd; color: #a7a7a7; margin: 0 15px 15px 0; cursor: pointer;}
+.modal .modal-body .shortcut-add-box-right ul li.shortcut-selected{border: 1px solid #1AB394; color: #1AB394;}
+.modal .modal-body .shortcut-add-box-right ul li>i{margin-right: 5px;}

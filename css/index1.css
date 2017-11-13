@@ -2,7 +2,7 @@
 
 .sectionHeader { text-transform: uppercase; text-align: center; font-size: 28px; font-size: 2.8rem; margin: 2rem auto; line-height: 7rem; font-weight: bold; transition: 0.5s; }
 .team .sectionHeader { margin-top: 4rem; margin-bottom: 0.5rem; line-height: 40px; }
-.testimonials { min-height: 380px; background: url("../img/tu1.png") no-repeat center top; background-size: cover; color: #33332c; }
+.testimonials { min-height: 380px; background: url("../img/jiaruwomen.jpg") no-repeat center top; background-size: cover; color: #33332c; }
 .testimonials:before { content: ''; display: table; }
 .testimonialsList { width: 100%; }
 .owl-stage-outer { width: 100%; overflow: hidden; }
